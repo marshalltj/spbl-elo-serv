@@ -1,0 +1,23 @@
+{
+  "name": "spbl-server",
+  "version": "1.0.0",
+  "description": "API for communicating with a MYSQL database for tracking player Elo and match history",
+  "engines": {
+    "node": "6.11.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Marshall Jankovsky",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "engines":{
+    "node": "14.18.0"
+  }
+}
